@@ -1,30 +1,40 @@
 # CSV Insight Explorer
 
-📊 **Natural language questions to CSV data insights**
+Explores CSV uploads, data previews and query workflows in the browser.
 
-## Description
-The CSV Insight Explorer allows non-technical users to upload CSV files and ask natural language questions to get charts, filters, and quick insights without writing complex queries or formulas.
+## Status
 
-## Features
-- 🎯 **Natural Language**: Ask questions in plain English
-- 📊 **Auto-Charts**: Automatic visualization generation
-- 🔍 **Smart Filtering**: Intuitive data exploration
-- ⚡ **Instant Results**: Real-time data analysis
-- 📱 **User-Friendly**: No technical skills required
+**Browser-based portfolio demo.** The checked-in `script.js` uses local
+JavaScript, rules, templates or simulated responses. It does not call a hosted
+LLM API or run a trained local model.
 
-## Perfect For
-- Business analysts
-- Marketing teams
-- Sales managers
-- HR professionals
-- Small business owners
+CSV parsing and question handling are limited demo implementations, not a general-purpose analytics engine.
 
-## Getting Started
-```bash
-git clone https://github.com/Thankswewin/csv-insight-explorer.git
-cd csv-insight-explorer
-open index.html
-```
+## Try It Locally
+
+1. Clone this repository.
+2. Open `index.html` in a modern browser.
+3. Use sample or non-sensitive inputs to explore the workflow.
+
+No npm or Python installation is required for this standalone demo.
+Some fonts or styles may load from external CDNs.
+
+## Repository Layout
+
+| File | Purpose |
+| --- | --- |
+| `index.html` | Interface and page markup |
+| `script.js` | Local workflow and demonstration logic |
+| `style.css` | Styling |
+
+## Development
+
+A real model integration would be a separate implementation. Keep provider
+credentials on a backend, never in browser JavaScript, and add appropriate
+validation and tests before using the tool with customer data.
 
 ## Author
-**Philemon Ofotan** | GitHub: [@Thankswewin](https://github.com/Thankswewin) | Email: pheelymon@gmail.com
+
+[Philemon Ofotan](https://github.com/Thankswewin), founder of
+[Archyy Studio](https://archyy.live).
+
